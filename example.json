@@ -1,0 +1,9 @@
+[
+    {
+        "PK": "PARTY|saas",
+        "SK": "CLIENT|oneauth",
+        "Type": "CLIENT",
+        "name": "OneAuth",
+        "description": "OneAuth is a secure and easy-to-use password manager that reduces the risk of password-related security breaches."
+    }
+]
