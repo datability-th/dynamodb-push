@@ -1,16 +1,23 @@
 {
   "name": "dynamodb-push",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "npx package to push your JSON file to AWS DynamoDB",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:datability-th/dynamodb-push.git"
+  },
   "bin": {
     "dynamodb-push": "./main.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "dynamodb",
+    "aws"
+  ],
+  "author": "Thanapapas Horsuwan <thanapapas@hotmail.com>",
   "license": "ISC",
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.549.0",
