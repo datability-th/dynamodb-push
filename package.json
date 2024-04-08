@@ -1,6 +1,6 @@
 {
   "name": "dynamodb-push",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "npx package to push your JSON file to AWS DynamoDB",
   "main": "main.js",
   "scripts": {
@@ -15,7 +15,10 @@
   },
   "keywords": [
     "dynamodb",
-    "aws"
+    "aws",
+    "JSON",
+    "database",
+    "migration"
   ],
   "author": "Thanapapas Horsuwan <thanapapas@hotmail.com>",
   "license": "ISC",

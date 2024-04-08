@@ -4,8 +4,28 @@
 
 ## How to Use
 
-In an AWS environment with credentials (`aws configure`), just create your JSON file and push to your table with a single command!
+In an environment with AWS credentials (`aws configure`), just create your JSON file and push to your table with a single command!
 
 ```bash
 npx dynamodb-push -i example.json -t YourTableName
+```
+
+Your JSON file should look something like this, each object for each DynamoDB Row:
+
+```json
+[
+  {
+    "PK": "PK|HASHKEY",
+    "SK": "SK|RANGEKEY",
+    "name": "Object 1",
+    "description": "This is description for Object 1"
+  },
+  {
+    "PK": "PK|HASHKEY",
+    "SK": "SK|RANGEKEY",
+    "name": "Object 2",
+    "description": "This is description for Object 2"
+  },
+  ...
+]
 ```
