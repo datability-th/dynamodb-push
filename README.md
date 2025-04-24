@@ -29,3 +29,9 @@ Your JSON file should look something like this, each object for each DynamoDB Ro
   ...
 ]
 ```
+
+# dynamodb-pull
+
+```bash
+npx dynamodb-pull -i out.jsonl -t YourTableName
+```

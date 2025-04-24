@@ -1,3 +1,7 @@
+save.sh
+data
+bin-hidden
+
 # Logs
 logs
 *.log

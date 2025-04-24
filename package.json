@@ -2,7 +2,7 @@
   "name": "dynamodb-push",
   "version": "1.0.3",
   "description": "npx package to push your JSON file to AWS DynamoDB",
-  "main": "main.js",
+  "main": "bin/dynamodb-push.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,9 @@
     "url": "git@github.com:datability-th/dynamodb-push.git"
   },
   "bin": {
-    "dynamodb-push": "./main.js"
+    "dynamodb-push": "bin/dynamodb-push.js",
+    "dynamodb-pull": "bin/dynamodb-pull.js",
+    "dynamodb-delete": "bin/dynamodb-delete.js"
   },
   "keywords": [
     "dynamodb",
